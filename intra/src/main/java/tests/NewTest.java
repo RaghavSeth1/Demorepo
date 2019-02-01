@@ -14,9 +14,9 @@ public class NewTest {
 	
   @Test
   public void openMyBlog() {
-	  driver.get("http://demo.guru99.com/test/guru99home/");  
+	  driver.get("http://a.testaddressbook.com/");  
 		String title = driver.getTitle();				 
-		Assert.assertTrue(title.contains("Demo Guru99 Page"));
+		Assert.assertTrue(title.contains("Address Book"));
   }
   
   @BeforeClass
