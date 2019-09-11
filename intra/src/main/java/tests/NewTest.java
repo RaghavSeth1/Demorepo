@@ -12,6 +12,7 @@ public class NewTest {
 	
 	public WebDriver driver;
 	
+	
   @Test
   public void openMyBlog() {
 	  driver.get("http://a.testaddressbook.com/");  
@@ -22,7 +23,7 @@ public class NewTest {
   @BeforeClass
   public void beforeClass() {
 	  
-	  System.setProperty("webdriver.chrome.driver", "C:\\SeleniumPOC\\drivers\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "E:\\Raghav\\Selenium\\executables\\chromedriver_win32\\chromedriver.exe");
 	  driver = new ChromeDriver();
 	  
   }
